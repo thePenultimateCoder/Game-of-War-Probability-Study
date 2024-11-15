@@ -126,7 +126,9 @@ y_vals = list(range(1, 52))
 alt_y_vals = list(range(1, 52))
 favourable = []
 unfavourable = []
-iters = 5000
+#This is the number of iterations of the game the program simulates, change this
+#to increase or decrease the iterations
+iters = 10000
 
 #Creating a list of 51 zeros to store the number of wins and losses at the
 #size of possession corresponding to the index (size - 1)
